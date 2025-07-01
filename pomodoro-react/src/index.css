@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background: #fff;
+  font-family: "Ubuntu";
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.header img {
+  width: 60px;
+  margin-bottom: 5px;
+}
+
+.timer {
+  font-size: 122px;
+  color: #b43d26;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button.start {
+  background: #486a2d;
+  color: white;
+}
+
+button.pause,
+button.restart {
+  background: #101010;
+  color: white;
+}
